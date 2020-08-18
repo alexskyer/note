@@ -343,6 +343,7 @@ public long maybeUpdate(long now) {
            return maybeUpdate(now, node);
        }
 ```
+
 ```Java
        // 判断是否可以发送请求,可以的话将 metadata 请求加入到发送列表中
        private long maybeUpdate(long now, Node node) {
